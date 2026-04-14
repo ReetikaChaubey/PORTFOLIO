@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Reetika Chaubey - B.Tech CSE Student specializing in AI & ML.">
+    <title>Portfolio - Reetika Chaubey | B.Tech CSE Student (AI & ML)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/data.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">RC</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button class="theme-toggle" aria-label="Toggle dark/light theme">🌙</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-animation">
+            <div class="floating-blob blob-1"></div>
+            <div class="floating-blob blob-2"></div>
+            <div class="floating-blob blob-3"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" id="heroName"></h1>
+                <p class="hero-subtitle" id="heroTitle"></p>
+                <div class="hero-info" id="heroInfo"></div>
+                <div class="hero-cta">
+                    <button class="btn btn-primary" data-section="projects">View My Work</button>
+                    <button class="btn btn-secondary" data-section="contact">Get In Touch</button>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="photo-container glass-effect">
+                    <img src="assets/profile.jpg" alt="Reetika Chaubey Avatar" class="avatar-image">
+                    <div class="photo-badge">CSE Student</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <svg width="20" height="30" viewBox="0 0 20 30">
+                <path d="M10 5L10 20M5 15L10 20L15 15" stroke="currentColor" fill="none" stroke-width="2"/>
+            </svg>
+        </div>
+    </section>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <svg width="20" height="30" viewBox="0 0 20 30">
+                <path d="M10 5L10 20M5 15L10 20L15 15" stroke="currentColor" fill="none" stroke-width="2"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-card glass-effect" data-reveal>
+                    <div class="about-icon">
+                        <img src="assets/icon-person.svg" alt="Person Icon" class="icon-img">
+                    </div>
+                    <h3>Who I Am</h3>
+                    <p>Enthusiastic and disciplined B.Tech CSE student specializing in Artificial Intelligence and Machine Learning. Committed to continuous learning and leveraging emerging technologies to solve real-world problems through web development and innovation.</p>
+                </div>
+
+                <div class="about-card glass-effect" data-reveal style="--reveal-delay: 0.2s;">
+                    <div class="about-icon">
+                        <img src="assets/icon-code.svg" alt="Code Icon" class="icon-img">
+                    </div>
+                    <h3>What I Do</h3>
+                    <p>I build responsive, interactive websites and web applications using HTML, CSS, and JavaScript. I focus on creating clean, user-friendly interfaces and enjoy working on full-stack projects that combine front-end design with backend logic.</p>
+                </div>
+
+                <div class="about-card glass-effect" data-reveal style="--reveal-delay: 0.4s;">
+                    <div class="about-icon">
+                        <img src="assets/icon-target.svg" alt="Target Icon" class="icon-img">
+                    </div>
+                    <h3>My Approach</h3>
+                    <p>I prioritize clean code, responsive design, and user experience. Every project I build is focused on solving problems efficiently while maintaining code quality and best practices in web development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <h2 class="section-title">Skills & Technologies</h2>
+
+            <div class="skills-grid">
+                <!-- Frontend Skills -->
+                <div class="skill-category" data-reveal>
+                    <h3 class="skill-title">Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-name">HTML5 & CSS3</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%;"></div>
+                            </div>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%;"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Responsive Design</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 88%;"></div>
+                            </div>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skill-category" data-reveal style="--reveal-delay: 0.2s;">
+                    <h3 class="skill-title">Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 82%;"></div>
+                            </div>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">C Language</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 80%;"></div>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%;"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Design -->
+                <div class="skill-category" data-reveal style="--reveal-delay: 0.4s;">
+                    <h3 class="skill-title">Tools & Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-name">Git & GitHub</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 88%;"></div>
+                            </div>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Problem Solving</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%;"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Communication</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 87%;"></div>
+                            </div>
+                            <span class="skill-percentage">87%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-effect" data-reveal data-tilt>
+                    <div class="project-image">
+                        <svg width="100%" height="100%" viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
+                            <defs>
+                                <linearGradient id="proj1-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:0.3" />
+                                    <stop offset="100%" style="stop-color:#0099ff;stop-opacity:0.3" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="300" height="200" fill="url(#proj1-grad)"/>
+                            <rect x="50" y="40" width="200" height="120" fill="none" stroke="#00d9ff" stroke-width="2" rx="8"/>
+                            <circle cx="150" cy="100" r="30" fill="none" stroke="#0099ff" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tour Bharat</h3>
+                        <p>Responsive multi-page travel website with destination details, service sections, and smooth navigation. Deployed on GitHub Pages with interactive user experience.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://reetikachaubey.github.io/TOUR-BHARAT/" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-effect" data-reveal data-tilt style="--reveal-delay: 0.2s;">
+                    <div class="project-image">
+                        <svg width="100%" height="100%" viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
+                            <defs>
+                                <linearGradient id="proj2-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#a855f7;stop-opacity:0.3" />
+                                    <stop offset="100%" style="stop-color:#ec4899;stop-opacity:0.3" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="300" height="200" fill="url(#proj2-grad)"/>
+                            <path d="M50 100 L150 50 L250 100 L150 150 Z" fill="none" stroke="#a855f7" stroke-width="2"/>
+                            <circle cx="150" cy="100" r="20" fill="#ec4899" opacity="0.6"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>FitScout</h3>
+                        <p>Fitness tracker web application with workout tracking, goal setting, and progress visualization. Built with a clean, user-friendly interface for optimal user experience.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://reetikachaubey.github.io/FIT-SCOUT/" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-effect" data-reveal data-tilt style="--reveal-delay: 0.4s;">
+                    <div class="project-image">
+                        <svg width="100%" height="100%" viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
+                            <defs>
+                                <linearGradient id="proj3-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.3" />
+                                    <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0.3" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="300" height="200" fill="url(#proj3-grad)"/>
+                            <rect x="60" y="60" width="40" height="80" fill="none" stroke="#06b6d4" stroke-width="2" rx="4"/>
+                            <rect x="130" y="50" width="40" height="100" fill="none" stroke="#0ea5e9" stroke-width="2" rx="4"/>
+                            <rect x="200" y="70" width="40" height="70" fill="none" stroke="#06b6d4" stroke-width="2" rx="4"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>Age Calculator</h3>
+                        <p>Calculates exact age from date of birth with responsive UI design. Built using pure HTML, CSS, and JavaScript with live deployment on GitHub Pages.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://reetikachaubey.github.io/Age_Calculator/" class="project-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-container">
+            <h2 class="section-title">Experience & Education</h2>
+
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item" data-reveal>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-effect">
+                        <div class="timeline-badge">Education</div>
+                        <h3>B.Tech CSE (AI & ML)</h3>
+                        <p class="timeline-company">Ashoka Institute of Technology and Management</p>
+                        <p class="timeline-period">2023 – 2027 (Pursuing)</p>
+                        <p class="timeline-description">Specializing in Artificial Intelligence and Machine Learning with strong focus on web development, algorithms, and emerging technologies.</p>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item" data-reveal style="--reveal-delay: 0.2s;">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-effect">
+                        <div class="timeline-badge">Education</div>
+                        <h3>Class 12 (CBSE)</h3>
+                        <p class="timeline-company">Sant Atulanand Convent School</p>
+                        <p class="timeline-period">2023</p>
+                        <p class="timeline-description">Completed secondary education from Sant Atulanand Convent School, Koirajpur, Varanasi with focus on science stream.</p>
+                    </div>
+                </div>
+
+                <!-- Education 1 -->
+                <div class="timeline-item" data-reveal style="--reveal-delay: 0.4s;">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-effect">
+                        <div class="timeline-badge">Education</div>
+                        <h3>Class 10 (CBSE)</h3>
+                        <p class="timeline-company">Sant Atulanand Convent School</p>
+                        <p class="timeline-period">2021</p>
+                        <p class="timeline-description">Completed secondary education with comprehensive knowledge in core subjects including Mathematics, Science, and English.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="section-container">
+            <h2 class="section-title">Certifications & Awards</h2>
+
+            <div class="achievements-grid">
+                <div class="achievement-card glass-effect" data-reveal>
+                    <div class="achievement-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                            <path d="M25 5L31 18H45L34 26L38 39L25 31L12 39L16 26L5 18H19L25 5Z" fill="url(#star-grad)" stroke="url(#star-grad)" stroke-width="1"/>
+                            <defs>
+                                <linearGradient id="star-grad" x1="0" y1="0" x2="50" y2="50">
+                                    <stop offset="0%" style="stop-color:var(--accent-1);stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:var(--accent-2);stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Oracle Foundation Associate</h3>
+                    <p>Certificate ID: 103056931OCI25AICFA</p>
+                </div>
+
+                <div class="achievement-card glass-effect" data-reveal style="--reveal-delay: 0.15s;">
+                    <div class="achievement-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                            <rect x="8" y="10" width="34" height="30" fill="none" stroke="url(#cert-grad)" stroke-width="2" rx="4"/>
+                            <path d="M15 22H35M15 28H35M15 34H25" stroke="url(#cert-grad)" stroke-width="1.5" stroke-linecap="round"/>
+                            <defs>
+                                <linearGradient id="cert-grad" x1="0" y1="0" x2="50" y2="50">
+                                    <stop offset="0%" style="stop-color:var(--accent-2);stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:var(--accent-3);stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Code Alpha Certificate</h3>
+                    <p>Certificate ID: CA/D3/7777</p>
+                </div>
+
+                <div class="achievement-card glass-effect" data-reveal style="--reveal-delay: 0.30s;">
+                    <div class="achievement-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="20" fill="none" stroke="url(#badge-grad)" stroke-width="2"/>
+                            <path d="M20 25L23 28L30 20" stroke="url(#badge-grad)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="badge-grad" x1="0" y1="0" x2="50" y2="50">
+                                    <stop offset="0%" style="stop-color:var(--accent-3);stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:var(--accent-1);stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Saiket Systems Certificate</h3>
+                    <p>Certificate ID: SKS/A2/C6350</p>
+                </div>
+
+                <div class="achievement-card glass-effect" data-reveal style="--reveal-delay: 0.45s;">
+                    <div class="achievement-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                            <g stroke="url(#trophy-grad)" stroke-width="2" fill="none">
+                                <path d="M10 15H40V20C40 25 35 28 25 28C15 28 10 25 10 20V15Z"/>
+                                <rect x="22" y="28" width="6" height="20" rx="2"/>
+                                <path d="M15 48H35"/>
+                            </g>
+                            <defs>
+                                <linearGradient id="trophy-grad" x1="0" y1="0" x2="50" y2="50">
+                                    <stop offset="0%" style="stop-color:var(--accent-1);stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:var(--accent-3);stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Rinex Internship & Achievement</h3>
+                    <p>ID: AI24-RNI0-5008 & AI24-RNG0-5007</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Have a project in mind? Let's create something amazing together.</p>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item glass-effect" data-reveal>
+                        <div class="contact-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M6 8H34C35.1 8 36 8.9 36 10V30C36 31.1 35.1 32 34 32H6C4.9 32 4 31.1 4 30V10C4 8.9 4.9 8 6 8Z" stroke="url(#email-grad)" stroke-width="1.5" fill="none"/>
+                                <path d="M6 10L20 22L34 10" stroke="url(#email-grad)" stroke-width="1.5" fill="none"/>
+                                <defs>
+                                    <linearGradient id="email-grad" x1="0" y1="0" x2="40" y2="40">
+                                        <stop offset="0%" style="stop-color:var(--accent-1);stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:var(--accent-2);stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:reetikachaubey@gmail.com">reetikachaubey@gmail.com</a>
+                    </div>
+
+                    <div class="contact-item glass-effect" data-reveal style="--reveal-delay: 0.15s;">
+                        <div class="contact-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M8 12L20 4L32 12V32C32 33.1 31.1 34 30 34H10C8.9 34 8 33.1 8 32V12Z" stroke="url(#location-grad)" stroke-width="1.5" fill="none"/>
+                                <path d="M20 18C22.2 18 24 19.8 24 22C24 24.2 20 28 20 28C20 28 16 24.2 16 22C16 19.8 17.8 18 20 18Z" stroke="url(#location-grad)" stroke-width="1.5" fill="none"/>
+                                <defs>
+                                    <linearGradient id="location-grad" x1="0" y1="0" x2="40" y2="40">
+                                        <stop offset="0%" style="stop-color:var(--accent-2);stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:var(--accent-3);stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Varanasi, UP, India</p>
+                    </div>
+
+                    <div class="contact-item glass-effect" data-reveal style="--reveal-delay: 0.30s;">
+                        <div class="contact-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M8 12C8 10.9 8.9 10 10 10H14.6C14.9 10 15.2 10.2 15.3 10.5L17.6 17.5C17.8 18 17.6 18.6 17.1 18.9L14.2 20.6C15.5 24 18.5 27.1 21.8 28.3L23.5 25.4C23.8 24.9 24.4 24.7 24.9 24.9L31.9 27.2C32.2 27.3 32.4 27.6 32.4 27.9V32.5C32.4 33.6 31.5 34.5 30.4 34.5C16.8 34.5 6 23.7 6 10.1C6 9 6.9 8 8 8V12Z" stroke="url(#phone-grad)" stroke-width="1.5" fill="none"/>
+                                <defs>
+                                    <linearGradient id="phone-grad" x1="0" y1="0" x2="40" y2="40">
+                                        <stop offset="0%" style="stop-color:var(--accent-3);stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:var(--accent-1);stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h3>Phone</h3>
+                        <a href="tel:+917355566832">+91 7355566832</a>
+                    </div>
+                </div>
+
+                <form class="contact-form glass-effect" data-reveal style="--reveal-delay: 0.2s;">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required class="form-input">
+                        <span class="form-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required class="form-input">
+                        <span class="form-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required class="form-input">
+                        <span class="form-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required class="form-input"></textarea>
+                        <span class="form-border"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Connect With Me</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" title="Twitter">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75-2.35 7-6 7-10.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0323 3z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" title="Codepen">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m-2 15l-5-3.5 5-3.5v7m4-10l5 3.5-5 3.5v-7m0-2l-4-2.82L8 5l4 2.82L12 5z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Location</h4>
+                <p>Varanasi, UP, India</p>
+                <p class="footer-tagline">Passionate about technology and continuous learning.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Reetika Chaubey. All rights reserved. B.Tech CSE Student (AI & ML) | Designed & Built with pure HTML, CSS & JavaScript.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
